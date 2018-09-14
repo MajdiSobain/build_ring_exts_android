@@ -60,7 +60,7 @@ SOURCES +=   \
     gstackedwidget.cpp \
     gcalendarwidget.cpp \
     gtabbar.cpp \
-#    gquickwidget.cpp \
+    gquickwidget.cpp \
     ring_qt.cpp
 
 HEADERS  += \

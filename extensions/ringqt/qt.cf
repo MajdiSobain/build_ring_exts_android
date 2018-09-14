@@ -314,6 +314,8 @@ extern "C" {
 
 </filter>
 
+#include <QProcessEnvironment>
+
 extern "C" {
 
 	RING_API void ring_qt_start(RingState *pRingState);
@@ -9653,3 +9655,20 @@ para: QWidget *parent
 parent: QAbstractSlider
 </class>
 
+<class>
+name: QProcessEnvironment
+para: void
+</class>
+
+
+void clear(void)
+bool contains(QString name)
+void insert(QString name, QString value)
+void insert@2(QProcessEnvironment e)
+bool isEmpty(void)
+QStringList keys(void)
+void remove(QString name)
+void swap(QProcessEnvironment other)
+QStringList toStringList(void)
+QString value(QString name, QString defaultValue)
+QProcessEnvironment systemEnvironment(void)
